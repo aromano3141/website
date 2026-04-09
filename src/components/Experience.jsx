@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { data } from '../data';
-import { BookOpen, Briefcase } from 'lucide-react';
+import { BookOpen, Briefcase, Award } from 'lucide-react';
 
 const Experience = () => {
   return (
@@ -46,7 +46,7 @@ const Experience = () => {
               <BookOpen className="text-primary-400" size={20} />
               Publications
             </h3>
-            <div className="space-y-6">
+            <div className="space-y-6 mb-12">
               {data.publications.map((pub, index) => (
                 <div 
                   key={index} 
@@ -62,6 +62,18 @@ const Experience = () => {
                     {pub.authors}
                   </p>
                 </div>
+              ))}
+            </div>
+
+            <h3 className="text-xl font-semibold mb-8 flex items-center gap-2 text-white">
+              <Award className="text-primary-400" size={20} />
+              Honors & Awards
+            </h3>
+            <div className="flex flex-wrap gap-3">
+              {['NSF REU Fellowship', 'Presidential Scholarship', 'Kummer Vanguard Scholar'].map((award, index) => (
+                <span key={index} className="bg-primary-900/20 border border-primary-500/30 text-primary-300 px-4 py-2 rounded-full text-sm font-medium">
+                  {award}
+                </span>
               ))}
             </div>
           </div>

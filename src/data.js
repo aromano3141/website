@@ -6,14 +6,14 @@ export const data = {
     email: "aromano0429@gmail.com",
     github: "https://github.com/aromano3141",
     linkedin: "https://www.linkedin.com/in/anthony-d-r",
-    bio: "I bridge the gap between theoretical physics and applied machine learning. Currently researching multimodal learning and NLP architectures at Missouri S&T (Class of 2027). Focused on building scalable, data-intensive systems."
+    bio: "I bridge the gap between theoretical physics and applied machine learning. Currently researching multimodal learning and NLP architectures at Missouri S&T (Class of 2027). Focused on building scalable, production-grade AI systems and contributing to core open-source libraries."
   },
   experience: [
     {
       company: "Missouri University of Science and Technology",
       role: "AI/ML Researcher",
       period: "Sep 2025 -- Present",
-      description: "Benchmarking deep learning models for multimodal tasks, fusing features from ViT (Vision Transformers) and CLIP. Accelerating training cycles by 40% using PyTorch Lightning."
+      description: "Benchmarking deep learning models for multimodal tasks, fusing features from ViT and CLIP. Achieved a 40% acceleration in model iteration cycles using PyTorch Lightning."
     },
     {
       company: "National Science Foundation REU",
@@ -30,10 +30,14 @@ export const data = {
       link: "https://github.com/aromano3141/Spotify-companion"
     },
     {
-      title: "Allergy Atlas",
-      tech: ["Python", "FastAPI", "React", "Docker", "scikit-learn"],
-      description: "Full-stack allergen detection platform. Uses a custom ML pipeline (TF-IDF + Logistic Regression) to predict allergens from unstructured text with 90%+ precision. Containerized via Docker Compose.",
-      link: "https://github.com/meganm2c/AllergyProject"
+      title: "AquaGuard",
+      tech: ["Python", "PyTorch Geometric", "FastAPI", "WNTR"],
+      description: "A GATv2 and LSTM anomaly detector for municipal water networks. Leverages SCADA residuals to reduce mean leak localization error to 142m. Awarded 'Best Use of AI' and 'Best Use of ElevenLabs' at PickHacks 2026."
+    },
+    {
+      title: "Meta PyTorch & React Contributor",
+      tech: ["C++", "Python", "JavaScript", "Unit Testing"],
+      description: "Contributed to Meta's core repositories. Developed unit tests for PyTorch tensor operations, increasing coverage by 12%, and authored documentation/examples for PyTorch Geometric (PyG). Resolved rendering edge cases in the React core."
     }
   ],
   publications: [

@@ -18,7 +18,7 @@ const Projects = () => {
           <span className="h-px bg-dark-border flex-grow max-w-xs ml-4"></span>
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {data.projects.map((project, index) => (
             <div
               key={index}
@@ -26,14 +26,16 @@ const Projects = () => {
             >
               <div className="flex justify-between items-start mb-6">
                 <Folder size={40} className="text-primary-400" />
-                <a
-                  href={project.link}
-                  className="text-gray-400 hover:text-primary-400 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <ExternalLink size={24} />
-                </a>
+                {project.link && (
+                  <a
+                    href={project.link}
+                    className="text-gray-400 hover:text-primary-400 transition-colors"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink size={24} />
+                  </a>
+                )}
               </div>
 
               <h3 className="text-xl font-bold text-white mb-4 group-hover:text-primary-400 transition-colors">

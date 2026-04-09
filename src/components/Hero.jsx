@@ -17,7 +17,7 @@ const Hero = () => {
       } else {
         clearInterval(interval);
       }
-    }, 30);
+    }, 18);
 
     const cursorInterval = setInterval(() => {
       setShowCursor((prev) => !prev);

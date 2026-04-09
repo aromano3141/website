@@ -31,7 +31,8 @@ const About = () => {
               I am always looking for ways to push the boundaries of what's possible.
             </p>
             <p>
-                When I'm not coding or reading papers, I'm likely exploring new technologies or working on personal projects that challenge my understanding of systems design.
+              I thrive on optimization, having previously reduced manual operations by 90% through automated hyperparameter sweeps and achieved 5x speedups in data preprocessing pipelines. 
+              When I'm not coding or reading papers, I'm likely exploring new technologies or working on personal projects that challenge my understanding of systems design.
             </p>
           </div>
           
